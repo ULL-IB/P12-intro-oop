@@ -62,8 +62,8 @@ Se reproducen a continuación algunos consejos extraídos del [tutorial de refer
 1. Desarrolle una clase `Point2D` para representar puntos en el espacio bidimensional a través de sus coordenadas. Incluya al menos los siguientes métodos:
     - `Show` para mostrar en pantalla las coordenadas del punto
     - `Move` para cambiar las coordenadas del punto
-    - `Distance` para calcular la distancia entre dos puntos. La distancia entre los puntos $\langle a_x,\,a_y\rangle$ y $\langle b_x,\,b_y\rangle$ se calcula como el valor real $\sqrt{\left(a_x - b_x\right)^2 + \left(a_y - b_y\right)^2}.$
-    - `Middle` para calcular el punto medio del segmento que une dos puntos. El punto medio entre los puntos $\langle a_x,\,a_y\rangle$ y $\langle b_x,\,b_y\rangle$ se calcula como el punto $\langle\left(a_x + b_x\right)/2,\,\left(a_y + b_y\right)/2\rangle$
+    - `Distance` para calcular la distancia entre dos puntos. La distancia entre los puntos $\langle a_x,\ a_y\rangle$ y $\langle b_x,\ b_y\rangle$ se calcula como el valor real $\sqrt{\left(a_x-b_x\right)^2 + \left(a_y-b_y\right)^2}.$
+    - `Middle` para calcular el punto medio del segmento que une dos puntos. El punto medio entre los puntos $\langle a_x,\ a_y\rangle$ y $\langle b_x,\ b_y\rangle$ se calcula como el punto $\left\langle\displaystyle\frac{a_x+b_x}{2},\ \displaystyle\frac{a_y+b_y}{2}\right\rangle$
 
 2. Diseñe una clase `Circulo` que permita representar círculos utilizando como atributos el centro, el radio y el color del círculo. Utilice una [enumeración](https://www.learncpp.com/cpp-tutorial/unscoped-enumerations/) (`enum`) para representar el color del círculo (incluyendo al menos tres colores a su elección). Incluya métodos `Area`, `Perimetro` y `Print` que permitan calcular el área y el perímetro del círculo, así como imprimir en pantalla la información relativa al círculo en cuestión. Incluya asimismo un método booleano `EsInterior` que determine si un punto del espacio cartesiano $\langle x,\,y\rangle$ está o no dentro del círculo (la distancia entre el punto y el centro del círculo es menor que el radio del mismo).
 
